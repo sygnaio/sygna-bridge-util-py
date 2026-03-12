@@ -22,7 +22,7 @@ def get_requirements():
 
 setup(
     name='sygna-bridge-util',
-    version='2.0.3',
+    version='2.0.4',
     packages=find_packages("src"),
     package_dir={"": "src"},
     install_requires=get_requirements(),
